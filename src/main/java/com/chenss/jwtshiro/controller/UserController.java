@@ -28,7 +28,7 @@ public class UserController {
          return "sys:role:save";
     }
 
-    @PutMapping("/upate")
+    @PutMapping("/update")
     @ApiOperation("更新")
     @RequiresPermissions({"sys:role:update"})
     public String update(SysUser s) {

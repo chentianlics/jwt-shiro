@@ -80,8 +80,8 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/**", "jwt");
 
 
-        //未授权界面;
-        shiroFilterFactoryBean.setUnauthorizedUrl("/403");
+        //未授权界面,未授权异常统一处理MyException，重定向到/unauthorized方法中
+//        shiroFilterFactoryBean.setUnauthorizedUrl("/unauthorized");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
 
