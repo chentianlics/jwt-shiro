@@ -83,6 +83,12 @@
             <version>1.18.4</version>
             <scope>provided</scope>
         </dependency>
+        <!--asy-->
+        <dependency>
+            <groupId>com.ning</groupId>
+            <artifactId>async-http-client</artifactId>
+            <version>1.9.40</version>
+        </dependency>
     </dependencies>
 
     <build>
